@@ -5,7 +5,7 @@ import { RouteNames } from '../../Navigation/configs';
 import { useNavigation } from '@react-navigation/native';
 import Mapbox from '@rnmapbox/maps';
 import { Button } from 'react-native-paper';
-import localization from '../../Assets/localization.json'
+import localization from '../../Assets/localization.json';
 import { MAP_KEY } from './configs';
 
 function MapBlock() {

@@ -29,4 +29,3 @@ export default Login = () => {
     </Button>
   );
 };
-//maslikhov20@gmail.com Qwer1234

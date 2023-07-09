@@ -1,10 +1,10 @@
-import React, {useEffect,useLayoutEffect,useState}from 'react';
+import React, {useEffect,useState}from 'react';
 import {View ,Text, FlatList} from 'react-native';
 import styles from './styles';
 import { useNavigation } from '@react-navigation/native';
 import { RouteNames } from '../../Navigation/configs';
 import { Button, DataTable } from 'react-native-paper';
-import localization from '../../Assets/localization.json'
+import localization from '../../Assets/localization.json';
 
 function UrqlBlock() {
 
@@ -20,7 +20,7 @@ function UrqlBlock() {
     const getInfo = async () =>{
       const response = await fetch('http://swapi.dev/api/people/');
       const json = await response.json();
-      setData([...json.results])
+      setData([...json.results]);
     }
     getInfo()
   }, []);
