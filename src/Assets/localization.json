@@ -1,0 +1,9 @@
+{
+  "actions": {
+    "Login": "Login",
+    "Map": "Map",
+    "Home": "Home",
+    "Urql": "Urql",
+    "Logout": "Logout"
+  }
+}
