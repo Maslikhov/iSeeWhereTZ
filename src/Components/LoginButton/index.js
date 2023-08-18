@@ -4,11 +4,10 @@ import { useNavigation } from '@react-navigation/native';
 import { RouteNames } from "../../../Navigation/configs";
 import { Button } from "react-native-paper";
 import localization from '../../../Assets/localization.json';
-import styles from "./styles";
+import styles from './styles';
 
-export default Login = () => {
-
-  const {authorize,users,isLoading} = useAuth0();
+const Login = () => {
+  const {authorize, users, isLoading} = useAuth0();
 
   const navigation = useNavigation();
 
@@ -29,3 +28,5 @@ export default Login = () => {
     </Button>
   );
 };
+
+export default Login;

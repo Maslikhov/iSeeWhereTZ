@@ -1,10 +1,7 @@
-import MapBlock from "../../Components/MapBlock";
+import MapBlock from '../../Components/MapBlock';
 
 function MapScreen() {
-
-  return (
-    <MapBlock/>
-  );
-};
+  return <MapBlock />;
+}
 
 export default MapScreen;

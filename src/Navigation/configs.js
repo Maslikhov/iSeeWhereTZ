@@ -12,7 +12,7 @@ export const DEFAULT_NAV_OPTIONS = {
 
 export const RouteNames = {
   WelcomeScreen: 'WelcomeScreen',
-  HomeScreen: 'Home', 
-  MapScreen: 'Map', 
-  UrqlScreen: 'Urql', 
+  HomeScreen: 'Home',
+  MapScreen: 'Map',
+  UrqlScreen: 'Urql',
 };

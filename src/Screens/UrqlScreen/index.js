@@ -1,10 +1,9 @@
-import UrqlBlock from "../../Components/UrqlBlock";
+import UrqlBlock from '../../Components/UrqlBlock';
 
 function UrqlScreen() {
-
   return (
     <UrqlBlock/>
   );
-};
+}
 
 export default UrqlScreen;
