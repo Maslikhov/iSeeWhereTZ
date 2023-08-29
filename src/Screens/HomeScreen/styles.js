@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import {StyleSheet} from 'react-native';
 
 export default styles = StyleSheet.create({
   container: {
@@ -25,20 +25,19 @@ export default styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '700',
   },
-  Auth0Block:{
-    height:300,
-    width:300,
-    marginBottom:20
+  Auth0Block: {
+    height: 300,
+    width: 300,
+    marginBottom: 20,
   },
-  Auth0Text:{
-    textAlign:'center',
-    paddingTop:145,
-    fontWeight: 'bold'
+  Auth0Text: {
+    textAlign: 'center',
+    paddingTop: 145,
+    fontWeight: 'bold',
   },
-  loggedInText:{
-    textAlign:'center',
-    paddingTop:145,
-    fontWeight:'600'
+  loggedInText: {
+    textAlign: 'center',
+    paddingTop: 145,
+    fontWeight: '600',
   },
-
 });

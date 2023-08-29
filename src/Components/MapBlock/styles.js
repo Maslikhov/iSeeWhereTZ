@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import {StyleSheet} from 'react-native';
 
 export default styles = StyleSheet.create({
   container: {
@@ -16,12 +16,12 @@ export default styles = StyleSheet.create({
     backgroundColor: '#2d3c4c',
   },
   map: {
-    flex: 1
+    flex: 1,
   },
-  mapBlock:{
-    height:600,
-    width:350,
-    borderWidth:2,
-    marginBottom:20
+  mapBlock: {
+    height: 600,
+    width: 350,
+    borderWidth: 2,
+    marginBottom: 20,
   },
 });

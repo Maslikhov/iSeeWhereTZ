@@ -1,12 +1,11 @@
 import {useAuth0} from 'react-native-auth0';
-import { useNavigation } from '@react-navigation/native';
-import { RouteNames } from '../../../Navigation/configs';
+import {useNavigation} from '@react-navigation/native';
+import {RouteNames} from '../../Navigation/configs';
 import styles from './styles';
-import localization from '../../../Assets/localization.json';
-import { Button } from 'react-native-paper';
+import localization from '../../Assets/localization.json';
+import {Button} from 'react-native-paper';
 
-
-export default Logout = () => {
+const Logout = () => {
   const {clearSession} = useAuth0();
 
   const navigation = useNavigation();
@@ -20,9 +19,10 @@ export default Logout = () => {
     }
   };
 
-return(      
-  <Button mode="contained" style={styles.logoutButton} onPress={onLogout}>
-    {localization.actions.Logout}
-  </Button>
-);
+  return (
+    <Button mode="contained" style={styles.logoutButton} onPress={onLogout}>
+      {localization.actions.Logout}
+    </Button>
+  );
 };
+export default Logout;
