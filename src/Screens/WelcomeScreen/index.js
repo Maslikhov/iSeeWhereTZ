@@ -8,7 +8,7 @@ function WelcomeScreen() {
   return (
     <View style={styles.container}>
       <View style={styles.logoWrapper}>
-        <Logo_iSeeWhere width={340} height={200}/>
+        <Logo_iSeeWhere width={340} height={200} />
         <Login />
       </View>
     </View>

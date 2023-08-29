@@ -37,7 +37,7 @@ function UrqlBlock() {
               Gender
             </Text>
           </DataTable.Title>
-          <DataTable.Title >
+          <DataTable.Title>
             <Text style={styles.titleText}>
               Birth Year
             </Text>

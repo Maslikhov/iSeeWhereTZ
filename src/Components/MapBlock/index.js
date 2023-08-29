@@ -1,8 +1,8 @@
 import React from 'react';
-import { View} from 'react-native';
+import {View} from 'react-native';
 import styles from './styles';
-import { RouteNames } from '../../Navigation/configs';
-import { useNavigation } from '@react-navigation/native';
+import {RouteNames} from '../../Navigation/configs';
+import {useNavigation} from '@react-navigation/native';
 import Mapbox from '@rnmapbox/maps';
 import {Button} from 'react-native-paper';
 import localization from '../../Assets/localization.json';
@@ -30,6 +30,6 @@ function MapBlock() {
       </Button>
     </View>
   );
-};
+}
 
 export default MapBlock;

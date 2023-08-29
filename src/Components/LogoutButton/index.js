@@ -1,8 +1,8 @@
 import {useAuth0} from 'react-native-auth0';
 import {useNavigation} from '@react-navigation/native';
-import {RouteNames} from '../../../Navigation/configs';
+import {RouteNames} from '../../Navigation/configs';
 import styles from './styles';
-import localization from '../../../Assets/localization.json';
+import localization from '../../Assets/localization.json';
 import {Button} from 'react-native-paper';
 
 const Logout = () => {
@@ -23,6 +23,6 @@ const Logout = () => {
     <Button mode="contained" style={styles.logoutButton} onPress={onLogout}>
       {localization.actions.Logout}
     </Button>
-);
+  );
 };
 export default Logout;
